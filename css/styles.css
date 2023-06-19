@@ -1,0 +1,307 @@
+body{
+    margin: 10px auto 0px;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    max-width: 960px;
+    margin :0 auto;
+}
+
+.container-1{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.nav-brand{
+    display:flex;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.menus ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding:0;
+    color: grey;
+}
+.menus{
+    flex-basis: 30%;
+}
+
+.contact{
+    display : flex;
+    justify-content: space-between;
+    flex-basis: 160px;
+
+}
+
+.eng{
+    background-color: #fff;
+    border : 1.5px solid grey; 
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+.contact-button{
+    background-color: #01D665;
+    border : 1px solid #01D665;
+    border-radius: 30px;
+    padding: 5px 20px;
+    color:white;
+}
+
+.section1{
+    display: flex;
+    margin-bottom: 4rem;
+}
+.jumbo-img{
+    flex-basis: 100%;
+}
+img{
+    width: 90%;
+    height: 90%;
+}
+
+.jumbo-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.jumbo-text div h1{
+    font-size: 3.2rem;
+    margin-bottom: 0;
+}
+
+.gen-button{
+    background-color: #01D665;
+    border : 1px solid #01D665;
+    border-radius: 30px;
+    padding: 8px 25px;
+    color:white;
+    margin-right: 1rem;
+}
+
+.learn{
+    background-color: #fff;
+    color: #01D665;
+}
+
+.jumbo-text div{
+    margin-bottom: 1.5rem;
+}
+
+.gen-button:hover{
+    background-color: #fff;
+    color: #01D665;
+}
+
+.learn:hover{
+    background-color: #01D665;
+    color: #fff;
+}
+
+.logo-container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.section-2{
+    text-align: center;
+    color: grey;
+    margin-bottom: 8rem;
+}
+
+.section-2 h3{
+    margin-bottom: 3rem;
+}
+
+.logo-container div img{
+    width: 120px;
+    height:50px;
+}
+
+.section-3 div{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.section-3 h2{
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.section-3 p{
+    color:grey;
+    line-height: 1.5;
+    margin-bottom: 8rem;
+}
+
+.card div{
+    color:#01D665;
+}
+
+.section-4{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 7%;
+    margin-bottom: 8rem;
+}
+.card{
+    flex-basis: 33.3333%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+.card .head{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color:black;
+}
+
+.no{
+    color:grey;
+    margin-bottom: 3rem;
+}
+
+.more{
+    color:#01D665
+}
+
+.section-4 .card:nth-child(odd) {
+    background-color:#F7F7F9;
+  }
+
+  .section-4 .card:nth-child(even) {
+    box-shadow: 0 5px 3px  #F1F3F4 ;
+  }
+
+.icon{
+    margin-bottom:2rem;
+}
+
+hr{
+    border:none;
+    height:2px;
+    background-color: #01D665;
+    width:7%;
+}
+
+.title-sec{
+    text-align: center;
+    font-weight: 700;
+}
+
+h2.title{
+    margin-bottom: 0;
+}
+
+.prof-pic{
+    max-width:42px;
+    margin-right: 12px;
+}
+
+.reviews{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 8rem;
+}
+
+.title-sec{
+    margin-bottom: 3rem;
+}
+.grid-item{
+    padding: 25px 50px;
+    border : 0.1px solid #F1F3F4;
+    box-shadow: 0 5px 3px  #F1F3F4 ;
+}
+
+.prof{
+    display: flex;
+    align-items: center;
+}
+
+.rev{
+    line-height: 1.8;
+    font-style: italic;
+    color:grey;
+    font-weight: 200;
+}
+
+.name{
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.design{
+    margin-top: 3px;
+    color:grey;
+    font-size: 0.8rem;
+}
+
+.footer{
+    max-width: 100%;
+    background-color: #263042;
+    color:#fff;
+    padding: 3% 0;
+}
+
+.main-foot{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* .foot-icons div{
+    display: inline-block;
+    margin-right: 10px;
+    background-color: grey;
+    color:white;
+    border-radius: 50%;
+    padding:5px;
+}
+ */
+
+ .last{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+ }
+
+ .last p{
+    color: grey;
+    font-size: 0.8rem;
+ }
+
+ .company-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .company-name p{
+    font-size: 0.6rem;
+    color: grey;
+ }
+
+ .cont-box{
+    margin-top: 2rem;
+    background-color: #192131;
+    padding:2px 15px;
+    width: 60%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .arrow{
+    align-self: center;
+    color:#01D665;
+ }
